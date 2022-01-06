@@ -27,6 +27,7 @@ body{
     .name{
         border-left: 4px solid #00a4b9;
         padding: 10px;
+        font-family: 'Luxurious Roman', cursive;
         }
     .button{
         text-decoration: none;
@@ -145,4 +146,7 @@ footer{
     color: #ffffff;
     text-align: center;
     padding: 2% 0%;
+}
+.footer-contant{
+    font-family: 'Luxurious Roman', cursive;
 }
