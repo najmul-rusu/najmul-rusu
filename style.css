@@ -34,20 +34,24 @@ h1{
     background-color: #00abc2;
     padding: 10px 40px;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
 }
+
 .half-width img{
     width: 85%;
 }
 
-#help{
+.title{
     text-align: center;
+    margin-top: 5%;
 }
 .web-help-img{
     width: 50%;
 }
 .box{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0% 10% 10% 10%;
 }
 .three-box{
     width:33%;
@@ -89,10 +93,7 @@ footer{
     padding-bottom: 20px;
 }
 
-.box h1{
-    text-align: center;
-}
-.box h3{
+.box h1, h3{
     text-align: center;
 }
 .box li{
@@ -102,4 +103,25 @@ footer{
 }
 .price-button{
     margin-left: 15%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right: 5%;
+}
+.form{
+    margin: 0% 10% 5% 10%;
 }
